@@ -1,0 +1,167 @@
+nav {
+  height: 400px;
+  width: 100%;
+  background-image: url("IMAGES/navbar-background3.avif");
+  border: 3px solid green;
+  box-shadow: 0px, 0px, 11px, 4px;
+
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse {
+  box-shadow: 10px 10px 5px rgb(131, 196, 131);
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px;
+}
+
+.card:hover {
+  background-image: url("IMAGE/navbar-background3.avif");
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card {
+  box-shadow: 12px 11px 3px 1px rgba(9, 146, 84, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: dimgrey;
+  width: 260px;
+  height: 180px;
+}
+
+.image-crd {
+  width: 200px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+#txt {
+  text-align: left;
+  font-size: 23px;
+}
+
+#txt:hover {
+  font-size: xx-large;
+}
+
+
+.navbar-inverse .navbar-brand:hover {
+  font-size: xx-large;
+}
+
+table {
+  border: 4px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 320px;
+  margin: auto;
+}
+
+td {
+  border: 4px solid;
+}
+
+.responcive {
+  width: 30px;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid burlywood;
+  width: 150px;
+  height: 150px;
+}
+
+.guest {
+  width: 50px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 5px;
+}
+
+.img:hover{
+  cursor: pointer;
+  
+}
